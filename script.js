@@ -14,4 +14,11 @@ console.log(johnBmi);
 const markHigherBMI = markBmi > johnBmi;
 
 console.log(markHigherBMI);
+
+// Challenge 2
+if (markHigherBMI) {
+  console.log(`Mark's BMI (${markBmi}) is higher than John's BMI (${johnBmi})`);
+} else {
+  console.log(`John's BMI (${johnBmi}) is higher than Mark's BMI (${markBmi})`);
+}
 */
