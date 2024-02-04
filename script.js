@@ -21,4 +21,46 @@ if (markHigherBMI) {
 } else {
   console.log(`John's BMI (${johnBmi}) is higher than Mark's BMI (${markBmi})`);
 }
+
+// Challenge 3
+const firstAverageDolphins = (96 + 108 + 89) / 3;
+const firstAverageKoalas = (88 + 91 + 110) / 3;
+const thirdAverageDolphins = (97 + 112 + 101) / 3;
+const thirdAverageKoalas = (109 + 95 + 106) / 2;
+
+console.log(firstAverageDolphins, firstAverageKoalas);
+
+if (firstAverageDolphins > firstAverageKoalas) {
+  console.log(`Go Dolphins Go!!!, you win with ${firstAverageDolphins}`);
+} else if (firstAverageDolphins === firstAverageKoalas) {
+  console.log("Sorry guys you scored the same thing");
+} else {
+  console.log(`GO Koala Go!!!, you win with ${firstAverageKoalas}`);
+}
+
+// Bonus 1
+const secondAverageDolphins = (97 + 112 + 101) / 3;
+const secondAverageKoalas = (109 + 95 + 106) / 3;
+
+console.log(secondAverageDolphins, secondAverageKoalas);
+
+if (
+  secondAverageDolphins > secondAverageKoalas &&
+  secondAverageDolphins >= 100
+) {
+  console.log(`Go Dolphins Go!!!, you win with ${secondAverageDolphins}`);
+} else if (
+  secondAverageKoalas >= 100 &&
+  secondAverageKoalas > secondAverageDolphins
+) {
+  console.log(`Go Koala Go!!!, you win with ${secondAverageKoalas}`);
+} else if (
+  secondAverageDolphins === secondAverageKoalas &&
+  secondAverageDolphins >= 100 &&
+  secondAverageKoalas >= 100
+) {
+  console.log("Sorry guys it's a draw");
+} else {
+  console.log("Sorry there's no winner");
+}
 */
